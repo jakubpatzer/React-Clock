@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Styling/App.css';
 import { Switch } from 'antd'
 import 'antd/dist/antd.css';
 import Clock from './Components/Clock'
