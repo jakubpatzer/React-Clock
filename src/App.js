@@ -21,10 +21,10 @@ class App extends Component {
                 React Clock
             </div>
             <div className="main">
-                <Switch onChange={this.handleSwitch}/>
+                <Switch onChange={this.handleSwitch} style={({margin: '40px'})}/>
                 <div className="circle">
                     <Clock/>
-                    {this.state.visibility && new Date().toLocaleDateString()}
+                    <span>{this.state.visibility && new Date().toDateString()}</span>
                 </div>
             </div>
         </div>
